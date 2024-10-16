@@ -1,0 +1,17 @@
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border: 1px solid rgb(43, 23, 23);
+    border-radius: 50px;
+    cursor: pointer;
+}

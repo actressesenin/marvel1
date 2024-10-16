@@ -1,3 +1,18 @@
 .home {
-  color: blue
+  color: rgb(43, 23, 23)
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+
+  button {
+    cursor: pointer;
+  }
 }

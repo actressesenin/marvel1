@@ -1,0 +1,16 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: unset;
+}
+
+.active {
+    color: rgb(89, 34, 106);
+    font-weight: bold;
+    font-size: 15px;
+}

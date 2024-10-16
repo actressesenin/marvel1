@@ -68,7 +68,13 @@ export const Homepage = () => {
       </div>
       <div>
         {response ? (
-          response.results.map((el) => <HeroBlock key={el.id} {...el} image={el.thumbnail?.path} />)
+          response.results.map((el) => (
+            <HeroBlock
+              key={el.id}
+              {...el}
+              image={el.thumbnail?.path + "." + el.thumbnail?.extension}
+            />
+          ))
         ) : (
           <h1>Данных нет</h1>
         )}

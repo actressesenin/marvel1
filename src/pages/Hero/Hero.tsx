@@ -40,7 +40,7 @@ export const Hero = () => {
     <div className={style.hero}>
       <Button text="На главную" className={style.back} onClick={() => navigate("/")} />
       <div className={style.hero_header}>
-        <img src={hero.thumbnail?.path} alt="Photo of hero" />
+        <img src={hero.thumbnail?.path + "." + hero.thumbnail?.extension} alt="Photo of hero" />
         <h1>Герой: {hero.name}</h1>
         <div>{hero.description}</div>
       </div>
